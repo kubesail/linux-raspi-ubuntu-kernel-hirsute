@@ -1,0 +1,23 @@
+# Menu: HEADER
+# FORMAT: 3
+# ARCH: arm64 armhf
+
+# include "../../debian.master/config/annotations"
+
+CONFIG_ARM_LPAE					policy<{'arm64': '-', 'armhf': 'y', 'armhf-raspi-nolpae': 'n'}>
+CONFIG_HIGHMEM					policy<{'arm64': '-', 'armhf': 'y', 'armhf-raspi-nolpae': 'n'}>
+CONFIG_VMSPLIT_3G				policy<{'arm64': '-', 'armhf': 'y', 'armhf-raspi-nolpae': 'n'}>
+CONFIG_VMSPLIT_2G				policy<{'arm64': '-', 'armhf': 'n', 'armhf-raspi-nolpae': 'y'}>
+CONFIG_ARM_LPAE					mark<ENFORCED> note<LP: #1896761>
+CONFIG_HIGHMEM					mark<ENFORCED> note<LP: #1896761>
+CONFIG_VMSPLIT_3G				mark<ENFORCED> note<LP: #1896761>
+CONFIG_VMSPLIT_2G				mark<ENFORCED> note<LP: #1896761>
+
+CONFIG_VIDEO_IRS1125				policy<{'arm64': 'm', 'armhf': 'm'}>
+CONFIG_VIDEO_IRS1125				mark<ENFORCED> note<LP: #1893779>
+
+CONFIG_BRCM_TRACING				policy<{'arm64': 'n', 'armhf': 'n'}>
+CONFIG_BRCM_TRACING				mark<ENFORCED> note<LP: #1893905>
+
+CONFIG_PREEMPT					policy<{'arm64': 'y', 'armhf': 'y'}>
+CONFIG_PREEMPT					mark<ENFORCED> note<LP: #1890808>
