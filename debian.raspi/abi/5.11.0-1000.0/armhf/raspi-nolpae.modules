@@ -248,7 +248,6 @@ analogix-anx6345
 analogix-anx78xx
 analogix_dp
 ansi_cprng
-anubis
 anybuss_core
 aoe
 apbps2
@@ -267,7 +266,6 @@ ar5523
 ar7part
 ar9331
 arasan-nand-controller
-arc4
 arc_ps2
 arc_uart
 arcpgu
@@ -337,7 +335,6 @@ au0828
 au8522_common
 au8522_decoder
 au8522_dig
-aufs
 auo-pixcir-ts
 auth_rpcgss
 authenc
@@ -497,7 +494,6 @@ c_can_platform
 ca8210
 cachefiles
 cadence-nand-controller
-cadence-quadspi
 cadence_wdt
 caif
 caif_hsi
@@ -548,7 +544,6 @@ cfi_cmdset_0002
 cfi_cmdset_0020
 cfi_probe
 cfi_util
-cfspi_slave
 ch
 ch341
 ch7006
@@ -641,7 +636,6 @@ crc32-arm-ce
 crc4
 crc64
 crc7
-crc8
 crct10dif-arm-ce
 cros-ec-cec
 cros-ec-sensorhub
@@ -769,7 +763,6 @@ digi_acceleport
 digicolor-usart
 diskonchip
 display-connector
-dlci
 dlhl60d
 dlink-dir685-touchkeys
 dlm
@@ -1171,7 +1164,6 @@ gdmulte
 gen_probe
 generic
 generic-adc-battery
-generic_bl
 geneve
 gf2k
 gfs2
@@ -1314,7 +1306,6 @@ gspca_vc032x
 gspca_vicam
 gspca_xirlink_cit
 gspca_zc3xx
-gtco
 gtp
 guillemot
 gunze
@@ -1619,7 +1610,6 @@ inet_diag
 inexio
 inftl
 input-leds
-input-polldev
 int51x1
 intel-xway
 intel_th
@@ -1795,7 +1785,6 @@ keyspan_pda
 keyspan_remote
 keywrap
 kfifo_buf
-khazad
 kl5kusb105
 kmx61
 kobil_sct
@@ -1896,7 +1885,6 @@ ledtrig-netdev
 ledtrig-pattern
 ledtrig-transient
 ledtrig-usbport
-lego_ev3_battery
 legousbtower
 lg-vl600
 lg2160
@@ -2196,7 +2184,6 @@ mdio-mux-gpio
 mdio-mux-mmioreg
 mdio-mux-multiplexer
 mdio-mvusb
-mdio-xpcs
 megachips-stdpxxxx-ge-b850v3-fw
 melfas_mip4
 memstick
@@ -2279,7 +2266,6 @@ ms_block
 ms_sensors_i2c
 mscc
 mscc_felix
-mscc_ocelot_common
 msdos
 msi001
 msi2500
@@ -2349,7 +2335,6 @@ n_hdlc
 n_tracerouter
 n_tracesink
 nand
-nand_ecc
 nandcore
 nandsim
 national
@@ -2587,7 +2572,6 @@ orangefs
 oti6858
 otm3225a
 ov2640
-ov2740
 ov7640
 ov9281
 overlay
@@ -2619,7 +2603,6 @@ panel-novatek-nt35510
 panel-orisetech-otm8009a
 panel-panasonic-vvx10f034n00
 panel-raspberrypi-touchscreen
-panel-rocktech-jh057n00900
 panel-ronbo-rb070d30
 panel-samsung-ld9040
 panel-samsung-s6e3ha2
@@ -2811,7 +2794,6 @@ qca_7k_common
 qcaspi
 qcauart
 qcaux
-qcom-cpr
 qcom-emac
 qcom-pm8xxx
 qcom-pm8xxx-xoadc
@@ -3017,7 +2999,6 @@ rc5t583-regulator
 rcar_can
 rcar_canfd
 rcar_dw_hdmi
-rcuperf
 rdma_cm
 rdma_ucm
 rds
@@ -3303,7 +3284,6 @@ sdhci-of-at91
 sdhci-xenon-driver
 sdhci_f_sdh30
 sdio_uart
-seed
 sensorhub
 serial_cs
 serial_ir
@@ -3382,7 +3362,6 @@ smc911x
 smc91c92_cs
 smc91x
 smm665
-smsc
 smsc47b397
 smsc47m1
 smsc47m192
@@ -3683,18 +3662,6 @@ spaceball
 spaceorb
 sparse-keymap
 spcp8x5
-speakup
-speakup_acntsa
-speakup_apollo
-speakup_audptr
-speakup_bns
-speakup_decext
-speakup_dectlk
-speakup_dummy
-speakup_ltlk
-speakup_soft
-speakup_spkout
-speakup_txprt
 speedtch
 spi-altera
 spi-amd
@@ -3835,7 +3802,6 @@ tag_8021q
 tag_ar9331
 tag_brcm
 tag_dsa
-tag_edsa
 tag_gswip
 tag_ksz
 tag_lan9303
@@ -3904,7 +3870,6 @@ tda9887
 tda9950
 tda998x
 tdo24m
-tea
 tea575x
 tea5761
 tea5767
@@ -3985,7 +3950,6 @@ tmp108
 tmp401
 tmp421
 tmp513
-torture
 touchit213
 touchright
 touchwin
@@ -4049,7 +4013,6 @@ tsys01
 tsys02d
 ttpci-eeprom
 ttusbir
-ttynull
 tua9001
 tuner
 tuner-simple
@@ -4181,7 +4144,6 @@ usbtest
 usbtmc
 usbtouchscreen
 usbtv
-usbvision
 usdhi6rol0
 userio
 userspace-consumer
@@ -4358,7 +4320,6 @@ wm8994-regulator
 wm97xx-ts
 wp512
 x25
-x25_asy
 x_tables
 xbox_remote
 xc4000
