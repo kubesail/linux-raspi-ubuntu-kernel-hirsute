@@ -4,6 +4,8 @@
 
 # include "../../debian.master/config/annotations"
 
+CONFIG_HIBERNATION				policy<{'arm64': 'n', 'armhf': 'n'}> mark<ENFORCED> note<LP: #1914009>
+
 CONFIG_ARM_LPAE					policy<{'arm64': '-', 'armhf': 'y', 'armhf-raspi-nolpae': 'n'}> mark<ENFORCED> note<LP: #1896761>
 CONFIG_HIGHMEM					policy<{'arm64': '-', 'armhf': 'y', 'armhf-raspi-nolpae': 'n'}> mark<ENFORCED> note<LP: #1896761>
 CONFIG_VMSPLIT_3G				policy<{'arm64': '-', 'armhf': 'y', 'armhf-raspi-nolpae': 'n'}> mark<ENFORCED> note<LP: #1896761>
