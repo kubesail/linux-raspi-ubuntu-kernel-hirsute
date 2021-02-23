@@ -5,6 +5,9 @@ firmware:       6fire/dmx6firel2.ihx
 firmware:       BCM2033-FW.bin
 firmware:       BCM2033-MD.hex
 firmware:       ar5523.bin
+firmware:       ath11k/QCA6390/hw2.0/amss.bin
+firmware:       ath11k/QCA6390/hw2.0/board-2.bin
+firmware:       ath11k/QCA6390/hw2.0/m3.bin
 firmware:       ath3k-1.fw
 firmware:       ath6k/AR6003/hw2.0/athwlan.bin.z77
 firmware:       ath6k/AR6003/hw2.0/bdata.SD31.bin
@@ -28,6 +31,7 @@ firmware:       ath6k/AR6004/hw1.3/bdata.bin
 firmware:       ath6k/AR6004/hw1.3/fw.ram.bin
 firmware:       ath9k_htc/htc_7010-1.4.0.fw
 firmware:       ath9k_htc/htc_9271-1.4.0.fw
+firmware:       atmel/wilc1000_wifi_firmware-1.bin
 firmware:       atmel_at76c503-i3861.bin
 firmware:       atmel_at76c503-i3863.bin
 firmware:       atmel_at76c503-rfmd-acc.bin
@@ -59,6 +63,8 @@ firmware:       b43legacy/ucode4.fw
 firmware:       bfubase.frm
 firmware:       brcm/bcm43xx-0.fw
 firmware:       brcm/bcm43xx_hdr-0.fw
+firmware:       brcm/brcm/brcmfmac*-pcie.*.txt
+firmware:       brcm/brcm/brcmfmac*-sdio.*.txt
 firmware:       brcm/brcmfmac43012-sdio.bin
 firmware:       brcm/brcmfmac43143-sdio.bin
 firmware:       brcm/brcmfmac43143.bin
@@ -99,6 +105,7 @@ firmware:       brcm/brcmfmac4366c-pcie.bin
 firmware:       brcm/brcmfmac4371-pcie.bin
 firmware:       brcm/brcmfmac4373-sdio.bin
 firmware:       brcm/brcmfmac4373.bin
+firmware:       cadence/mhdp8546.bin
 firmware:       carl9170-1.fw
 firmware:       cis/3CCFEM556.cis
 firmware:       cis/3CXEM556.cis
@@ -198,6 +205,7 @@ firmware:       go7007/s2250-2.fw
 firmware:       go7007/wis-startrek.fw
 firmware:       i2400m-fw-usb-1.5.sbcf
 firmware:       i6050-fw-usb-1.5.sbcf
+firmware:       idt82p33xxx.bin
 firmware:       intel/ibt-11-5.ddc
 firmware:       intel/ibt-11-5.sfi
 firmware:       intel/ibt-12-16.ddc
@@ -315,6 +323,8 @@ firmware:       rtl_bt/rtl8821a_config.bin
 firmware:       rtl_bt/rtl8821a_fw.bin
 firmware:       rtl_bt/rtl8822b_config.bin
 firmware:       rtl_bt/rtl8822b_fw.bin
+firmware:       rtl_bt/rtl8852au_config.bin
+firmware:       rtl_bt/rtl8852au_fw.bin
 firmware:       rtl_nic/rtl8153a-2.fw
 firmware:       rtl_nic/rtl8153a-3.fw
 firmware:       rtl_nic/rtl8153a-4.fw
@@ -331,6 +341,7 @@ firmware:       rtlwifi/rtl8723aufw_B.bin
 firmware:       rtlwifi/rtl8723aufw_B_NoBT.bin
 firmware:       rtlwifi/rtl8723bu_bt.bin
 firmware:       rtlwifi/rtl8723bu_nic.bin
+firmware:       rtw88/rtw8821c_fw.bin
 firmware:       sd8385.bin
 firmware:       sd8385_helper.bin
 firmware:       sd8686.bin
