@@ -4,6 +4,10 @@
 
 include "../../debian.master/config/annotations"
 
+CONFIG_DRM_DISPLAY_CONNECTOR			policy<{'*': 'm'}> mark<ENFORCED> note<LP: #1916721>
+CONFIG_DRM_SIMPLE_BRIDGE			policy<{'*': 'm'}> mark<ENFORCED> note<LP: #1916721>
+CONFIG_MEDIA_CEC_RC				policy<{'*': 'y'}> mark<ENFORCED> note<LP: #1916721>
+
 CONFIG_HIBERNATION				policy<{'arm64': 'n', 'armhf': 'n'}> mark<ENFORCED> note<LP: #1914009>
 
 CONFIG_ARM_LPAE					policy<{'arm64': '-', 'armhf': 'y', 'armhf-raspi-nolpae': 'n'}> mark<ENFORCED> note<LP: #1896761>
