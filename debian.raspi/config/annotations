@@ -4,6 +4,8 @@
 
 include "../../debian.master/config/annotations"
 
+CONFIG_BLK_DEV_NVME				policy<{'*': 'y'}> mark<ENFORCED> note<LP: #1919319>
+
 CONFIG_DRM_DISPLAY_CONNECTOR			policy<{'*': 'm'}> mark<ENFORCED> note<LP: #1916721>
 CONFIG_DRM_SIMPLE_BRIDGE			policy<{'*': 'm'}> mark<ENFORCED> note<LP: #1916721>
 CONFIG_MEDIA_CEC_RC				policy<{'*': 'y'}> mark<ENFORCED> note<LP: #1916721>
