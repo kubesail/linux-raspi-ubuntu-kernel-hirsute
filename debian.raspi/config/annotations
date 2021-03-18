@@ -4,6 +4,8 @@
 
 include "../../debian.master/config/annotations"
 
+CONFIG_GPIO_CDEV_V1				policy<{'*': 'y'}> mark<ENFORCED> note<LP: #1919973>
+
 CONFIG_BLK_DEV_NVME				policy<{'*': 'y'}> mark<ENFORCED> note<LP: #1919319>
 
 CONFIG_DRM_DISPLAY_CONNECTOR			policy<{'*': 'm'}> mark<ENFORCED> note<LP: #1916721>
