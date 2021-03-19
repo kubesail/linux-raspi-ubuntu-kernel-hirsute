@@ -16731,6 +16731,7 @@ EXPORT_SYMBOL_GPL	 vmlinux 0x37bf7be3	percpu_ref_exit
 EXPORT_SYMBOL_GPL	 vmlinux 0x37bf93ad	sdio_f0_readb
 EXPORT_SYMBOL_GPL	 vmlinux 0x37cf1a94	of_prop_next_string
 EXPORT_SYMBOL_GPL	 vmlinux 0x37d8b1ab	sata_pmp_qc_defer_cmd_switch
+EXPORT_SYMBOL_GPL	 vmlinux 0x37e578ad	follow_pte
 EXPORT_SYMBOL_GPL	 vmlinux 0x37e5ddaf	uhci_check_and_reset_hc
 EXPORT_SYMBOL_GPL	 vmlinux 0x37ea5874	crypto_stats_rng_generate
 EXPORT_SYMBOL_GPL	 vmlinux 0x37f4104c	mpc8xxx_spi_probe

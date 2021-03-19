@@ -18596,6 +18596,7 @@ EXPORT_SYMBOL_GPL	 vmlinux 0x86f6b99d	synchronize_rcu_expedited
 EXPORT_SYMBOL_GPL	 vmlinux 0x86f85114	net_dec_egress_queue
 EXPORT_SYMBOL_GPL	 vmlinux 0x87014601	ndo_dflt_bridge_getlink
 EXPORT_SYMBOL_GPL	 vmlinux 0x8708b131	crypto_stats_skcipher_encrypt
+EXPORT_SYMBOL_GPL	 vmlinux 0x870ee878	follow_pte
 EXPORT_SYMBOL_GPL	 vmlinux 0x8710e1e7	phy_speed_up
 EXPORT_SYMBOL_GPL	 vmlinux 0x871f030a	pci_aer_clear_nonfatal_status
 EXPORT_SYMBOL_GPL	 vmlinux 0x8735472f	ata_scsi_dma_need_drain

@@ -17689,6 +17689,7 @@ EXPORT_SYMBOL_GPL	 vmlinux 0x6003bf63	ata_std_sched_eh
 EXPORT_SYMBOL_GPL	 vmlinux 0x60091316	clk_notifier_register
 EXPORT_SYMBOL_GPL	 vmlinux 0x601806e7	pm_clk_add
 EXPORT_SYMBOL_GPL	 vmlinux 0x603b3e3b	usb_add_phy_dev
+EXPORT_SYMBOL_GPL	 vmlinux 0x6043565f	follow_pte
 EXPORT_SYMBOL_GPL	 vmlinux 0x60511de5	phy_power_off
 EXPORT_SYMBOL_GPL	 vmlinux 0x60606431	kernel_read_file_from_path_initns
 EXPORT_SYMBOL_GPL	 vmlinux 0x60671345	software_node_register_nodes
