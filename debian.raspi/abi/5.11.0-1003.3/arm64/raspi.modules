@@ -840,7 +840,6 @@ dme1737
 dmi-sysfs
 dn_rtmsg
 dnet
-docg3
 dp83640
 dp83822
 dp83848
@@ -2604,8 +2603,6 @@ nsh
 ntc_thermistor
 ntfs
 null_blk
-nvme
-nvme-core
 nvme-fabrics
 nvme-fc
 nvme-loop
@@ -2764,7 +2761,6 @@ phy-exynos-usb2
 phy-generic
 phy-gpio-vbus-usb
 phy-isp1301
-phy-lgm-usb
 phy-pxa-28nm-hsic
 phy-pxa-28nm-usb2
 phy-qcom-usb-hs
@@ -2978,7 +2974,6 @@ rc-beelink-gs1
 rc-behold
 rc-behold-columbus
 rc-budget-ci-old
-rc-cec
 rc-cinergy
 rc-cinergy-1400
 rc-d680-dmb
