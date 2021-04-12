@@ -2245,6 +2245,7 @@ mct_u232
 md-cluster
 md4
 mdc800
+mdev
 mdio-bitbang
 mdio-gpio
 mdio-hisi-femac
@@ -2438,9 +2439,6 @@ nct6683
 nct6775
 nct7802
 nct7904
-nd_blk
-nd_btt
-nd_pmem
 net1080
 net2272
 net_failover
@@ -2622,7 +2620,6 @@ nvme-rdma
 nvme-tcp
 nvmem-rave-sp-eeprom
 nvmem-reboot-mode
-nvmem-rmem
 nvmem_qcom-spmi-sdam
 nvmet
 nvmet-fc
@@ -4214,6 +4211,7 @@ uPD60620
 u_audio
 u_ether
 u_serial
+uacce
 uartlite
 uas
 ubi
@@ -4336,6 +4334,10 @@ veml6070
 veth
 vf610_adc
 vf610_dac
+vfio
+vfio-pci
+vfio_iommu_type1
+vfio_virqfd
 vgem
 vgg2432a4
 vhci-hcd
