@@ -1,6 +1,6 @@
-linux-raspi (5.11.0-1009.9) hirsute; urgency=medium
+linux-raspi (5.11.0-1009.10) hirsute; urgency=medium
 
-  * hirsute/linux-raspi: 5.11.0-1009.9 -proposed tracker (LP: #1927572)
+  * hirsute/linux-raspi: 5.11.0-1009.10 -proposed tracker (LP: #1927572)
 
   * Hirsute update: v5.11.16 upstream stable release (LP: #1926999)
     - [Config] raspi: CONFIG_AS_HAS_LSE_ATOMICS=y
