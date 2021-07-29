@@ -5,6 +5,7 @@
 # Remove any files deleted from the orig.
 rm -f 'arch/arm/boot/dts/bcm283x-rpi-usb-peripheral.dtsi'
 rm -f 'arch/powerpc/kernel/syscall_64.c'
+rm -f 'arch/um/kernel/gmon_syms.c'
 rm -f 'drivers/net/can/dev.c'
 rm -f 'drivers/net/can/rx-offload.c'
 rm -f 'drivers/pci/pcie/bw_notification.c'
